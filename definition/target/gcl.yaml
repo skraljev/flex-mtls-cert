@@ -1,0 +1,20 @@
+---
+apiVersion: gateway.mulesoft.com/v1alpha1
+kind: Extension
+metadata:
+  labels:
+    title: mtls-cert
+    category: Custom
+    metadata/interfaceScope: api,resource
+    pdk.mulesoft.com/pdk-cli-version: 1.3.0
+  name: mtls-cert-v1-0
+spec:
+  extends:
+    - name: extension-definition
+      namespace: default
+  properties:
+    stringProperty:
+      type: string
+      default: some value
+  required:
+    - stringProperty

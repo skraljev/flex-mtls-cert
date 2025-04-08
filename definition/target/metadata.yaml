@@ -1,0 +1,7 @@
+#%Policy Definition 0.1
+name: mtls-cert
+category: Custom
+providedCharacteristics: []
+interfaceScope:
+  - api
+  - resource

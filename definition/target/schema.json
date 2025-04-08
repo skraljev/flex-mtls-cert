@@ -1,0 +1,15 @@
+{
+  "title": "mtls-cert",
+  "type": "object",
+  "$id": "mtls-cert",
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "properties": {
+    "stringProperty": {
+      "type": "string",
+      "default": "some value"
+    }
+  },
+  "required": [
+    "stringProperty"
+  ]
+}
