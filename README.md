@@ -2,6 +2,15 @@
 
 Flex Gateway custom policy for extracting client certificate details and exposing them upstream in headers 
 
+## Preparing the policy for the build
+
+Once the repository is cloned to your local drive, modify the following file with your own Anypoint Org id, or your Business Group id.
+- Cargo.toml
+  replace the assigned value with your designated org/BU id:
+  ```
+  group_id = "aaaaaaaa-bbbb-cccc-0000-dddddddddddd"
+  ```
+ 
 
 ## Test the Policy
 
