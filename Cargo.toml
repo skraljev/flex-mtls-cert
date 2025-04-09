@@ -8,7 +8,7 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [package.metadata.anypoint]
-group_id = "99b00b4c-5e28-4d9a-a308-8bc0c4b00cfa"
+group_id = "aaaaaaaa-bbbb-cccc-0000-dddddddddddd"
 definition_asset_id = "mtls-cert"
 implementation_asset_id = "mtls-cert-flex"
 
